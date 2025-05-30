@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import back1 from "../../assets/back1.png";
+import back1 from "../../assets/Back1.png";
 import { FaArrowRight } from "react-icons/fa";
 
 function Two() {
