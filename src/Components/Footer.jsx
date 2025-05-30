@@ -2,7 +2,7 @@ import { CiFacebook } from "react-icons/ci";
 import { NavLink } from "react-router-dom";
 import { AiFillTikTok } from "react-icons/ai";
 import { FaSquareInstagram } from "react-icons/fa6";
-import logo from "../assets/logo.png";
+import logo from "../assets/Logo.png";
 
 function Footer() {
   return (
