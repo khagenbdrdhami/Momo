@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import back1 from "../../assets/back1.png";
+import backed from "../../assets/backed.png";
 import { FaArrowRight } from "react-icons/fa";
 
 function Two() {
@@ -8,7 +8,7 @@ function Two() {
     
     <div 
             style={{
-              backgroundImage: `url(${back1})`, 
+              backgroundImage: `url(${backed})`, 
               
 
             }}
