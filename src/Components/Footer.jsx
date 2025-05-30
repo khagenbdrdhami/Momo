@@ -2,7 +2,7 @@ import { CiFacebook } from "react-icons/ci";
 import { NavLink } from "react-router-dom";
 import { AiFillTikTok } from "react-icons/ai";
 import { FaSquareInstagram } from "react-icons/fa6";
-import Momo from "../assets/logo.png";
+import logo from "../assets/logo.png";
 
 function Footer() {
   return (
@@ -10,7 +10,7 @@ function Footer() {
       <div className=" flex m-16 ml-36">
       <div className="w-96 ">
       <NavLink to="/" className="flex items-center gap-x-5 mb-8">
-          <img src={Momo} alt="momo_image" className="h-10" />
+          <img src={logo} alt="momo_image" className="h-10" />
           <span className="text-green-900 font-bold text-4xl">Momos</span>
         </NavLink>
         <p>
