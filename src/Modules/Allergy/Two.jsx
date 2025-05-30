@@ -5,11 +5,12 @@ import top3 from '../../assets/top3.png';
 
 function Two() {
   return (
-    <div className="bg-white text-gray-800 py-10 px-4 relative overflow-hidden">
-      <h2 className="text-center text-2xl font-semibold text-orange-600 mb-6">
+    <div>
+    <h2 className="text-center text-4xl mb-10 font-bold  text-orange-600 ">
         Ingredient’s Used
       </h2>
-
+    <div className="bg-white text-gray-800 py-10 px-4 relative overflow-hidden">
+      
       
       <div className="absolute inset-0 flex flex-col justify-between items-center z-0 pointer-events-none">
         <div
@@ -81,6 +82,7 @@ function Two() {
           </ul>
         </div>
       </div>
+    </div>
     </div>
   );
 }
